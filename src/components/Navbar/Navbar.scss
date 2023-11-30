@@ -1,0 +1,34 @@
+.header{
+    background-color: #E1E1E5;
+
+    .header-container{
+      max-width: 1500px;
+      margin: 0 auto;
+      padding-block: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .header-title{
+        color: #0eafa7;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin: 1rem auto;
+      }
+
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+
+      .navbar-link{
+        color: #0eafa7;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none; 
+        }  
+      }  
+    }
+  }
+  
+  
