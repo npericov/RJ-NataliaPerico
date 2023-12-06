@@ -1,6 +1,6 @@
 //import './Navbar.scss'//
 import logo from '../../assets/logo.png'
-import CartIcon from '../Cartwidget/CartIcon'
+import CartWidget from '../Cartwidget/Cartwidget'
 import NavLink from './NavLink'
 
 
@@ -18,7 +18,7 @@ const Navbar = () => {
                     <NavLink href={"#"} text={"Contacto"}/>
                 </nav>
                 <div>
-                <CartIcon />
+                <CartWidget />
                 </div>
             </div>
         </header>
