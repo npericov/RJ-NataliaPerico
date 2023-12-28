@@ -1,5 +1,6 @@
 import React from 'react';
-import ItemCount from '../ItemCount/ItemCount';
+import { Link } from 'react-router-dom';
+
 
 const ItemCard = ({ item }) => {
     const handleAddToCart = (quantity) => {
@@ -12,9 +13,10 @@ const ItemCard = ({ item }) => {
             <img src={item.img} alt={item.name} />
             <h3 className="  text-gray-600 text-xl font-bold  text-center">{item.name}</h3>
             <hr />
-            <p className='text-gray-800 px-8 py-2'>{item.description}</p>
-            <p className=" text-gray-500 text-l font-bold px-8 py-2 ">Precio: ${item.price}</p>
-            <ItemCount stock={10} initial={1} onAdd={handleAddToCart} />
+            <p className=" text-gray-500 text-l font-bold px-8 py-2 text-center ">Precio: ${item.price}</p>
+            <button className ="Button bg-tecnica border-2 rounded-xl w-40 h-8 flex items-center justify-center text-white m-auto px-8 py-4">
+            <Link to={`/item/${item.id}`}>Ver más</Link>
+            </button>
         </article>
     );
 };

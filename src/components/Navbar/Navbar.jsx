@@ -1,7 +1,7 @@
 //import './Navbar.scss'//
 import logo from '../../assets/logo.png'
 import CartWidget from '../Cartwidget/Cartwidget'
-import NavLink from './NavLink'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -12,10 +12,11 @@ const Navbar = () => {
                 <img src={logo} alt="logo" className='w-28' />
 
                 <nav className="flex gap-7">
-                    <NavLink href={"#"} text={"Tienda"}/>
-                    <NavLink href={"#"} text={"Estampados"}/>
-                    <NavLink href={"#"} text={"Nosotros"}/>
-                    <NavLink href={"#"} text={"Contacto"}/>
+                    <Link to={"/"} className="text-tecnica hover:text-gray-600 text-lg font-semibold" >Inicio</Link>
+                    <Link to={"/productos/poleras"} className="text-tecnica hover:text-gray-600 text-lg font-semibold" >Poleras</Link>
+                    <Link to={"/productos/polerones"} className="text-tecnica hover:text-gray-600 text-lg font-semibold" >Polerones</Link>
+                    <Link to={"/productos/bolsos"} className="text-tecnica hover:text-gray-600 text-lg font-semibold" >Bolsos</Link>
+
                 </nav>
                 <div>
                 <CartWidget />

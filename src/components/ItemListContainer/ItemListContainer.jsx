@@ -1,11 +1,15 @@
 import { useState, useEffect } from "react"
 import { pedirDatos } from "../../utils/utils"
 import ItemList from "../ItemList/ItemList";
+import { useParams } from "react-router-dom";
 
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
+
+    const { categoryId} = useParams()
+    console.log (categoryId)
 
 
     useEffect (() => {
@@ -14,15 +18,19 @@ const ItemListContainer = () => {
 
         pedirDatos() // <=promise
         .then((data) => {
-            setProductos (data)
-            setLoading ( false )
+            const items = categoryId
+                            ? data.filter(prod => prod.category === categoryId)
+                            : data
+
+            setProductos (items)           
         })
-    }, [] )
+        .finally (() => setLoading ( false ))
+    }, [categoryId])
 
     return (
         <>
             {  loading
-                ? <h2 className="text-center text-4lx mt-8 ">Cargando...</h2>
+                ? <h2 className="text-center text-4-lx mt-8 ">Cargando...</h2>
                 : <ItemList productos={productos}/>  
             }
         </>   
