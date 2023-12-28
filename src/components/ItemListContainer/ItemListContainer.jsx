@@ -1,16 +1,32 @@
+import { useState, useEffect } from "react"
+import { pedirDatos } from "../../utils/utils"
+import ItemList from "../ItemList/ItemList";
 
-const ItemListContainer = ({greeting}) => {
+
+const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
+    const [loading, setLoading] = useState(true)
+
+
+    useEffect (() => {
+        setLoading(true)
+
+
+        pedirDatos() // <=promise
+        .then((data) => {
+            setProductos (data)
+            setLoading ( false )
+        })
+    }, [] )
 
     return (
-
-    <div className="flex items-center justify-center p-4">
-        <div className="text-center text-gray-400 text-lg font-semibold uppercase">
-            <h1>{greeting}</h1>
-        </div>
-    </div>
+        <>
+            {  loading
+                ? <h2 className="text-center text-4lx mt-8 ">Cargando...</h2>
+                : <ItemList productos={productos}/>  
+            }
+        </>   
     )
-
-
 };
 
 export default ItemListContainer;
