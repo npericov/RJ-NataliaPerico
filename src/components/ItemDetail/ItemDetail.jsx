@@ -1,34 +1,46 @@
-import React from 'react';
-import ItemCount from '../ItemCount/ItemCount';
-
-
-    
+import { useState } from 'react';
+import Boton from '../Renderprops/Boton';
+import QuantitySelector from '../ItemDetail/QuantitySelector.jsx';
 
 
 
 const ItemDetail = ({ item }) => {
-    const handleAddToCart = (quantity) => {
-    
-        console.log(`Agregando al carrito: ${quantity} de ${item.name}`);
-        };
+    const [cantidad, setCantidad] = useState(1)
+
+    const handleAgregar = () => {
+        const itemToCart = {
+            ...item,
+            cantidad,
+
+        }
+
+        console.log(itemToCart)
+    }
 
     return (
 
-       <section className="container m-auto py-10 ">
-
-        <div className="w-80 bg-white relative max-w-sm rounded shadow-md hover:shadow-2xl overflow-visible">
-            <img src={item.img} alt={item.name} />
-            <h3 className="  text-gray-600 text-xl font-bold  text-center">{item.name}</h3>
-            <hr />
-            <p className='text-gray-800 px-8 py-2'>{item.description}</p>
-            <p className=" text-gray-500 text-l font-bold px-8 py-2 ">Precio: ${item.price}</p>
-            <ItemCount stock={10} initial={1} onAdd={handleAddToCart} />
-       </div>
-
-       </section>
-
+        <div className="container mx-auto mt-10">
+            <div className="max-w-screen-md mx-auto bg-white rounded-md shadow-lg hover:shadow-2xl overflow-visible">
+                <div className="flex">
+                    <div className="w-1/2 p-4">
+                        <img src={item.img} alt={item.name} className="w-full h-auto object-cover rounded-md" />
+                    </div>
+                    <div className="w-1/2 p-4">
+                        <h3 className="text-2xl font-bold mb-2">{item.name}</h3>
+                        <p className="text-gray-700 mb-4">{item.description}</p>
+                        <p className="text-gray-800 text-lg font-bold mb-2">${item.price}</p>
+                        <QuantitySelector cantidad={cantidad} stock={item.stock} setCantidad={setCantidad} />
+                        <div className="mt-4">
+                            <Boton onClick={handleAgregar} className="bg-tecnica text-white px-4 py-2 rounded">
+                                Agregar al carrito
+                            </Boton>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
-    };
+};
 
     export default ItemDetail;
 

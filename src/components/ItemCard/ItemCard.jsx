@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Boton from '../Renderprops/Boton.jsx';
 
 
 const ItemCard = ({ item }) => {
@@ -9,14 +10,17 @@ const ItemCard = ({ item }) => {
     };
 
     return (
-        <article key={item.id} className="w-80 bg-white relative max-w-sm rounded shadow-md hover:shadow-2xl overflow-visible">
-            <img src={item.img} alt={item.name} />
-            <h3 className="  text-gray-600 text-xl font-bold  text-center">{item.name}</h3>
-            <hr />
-            <p className=" text-gray-500 text-l font-bold px-8 py-2 text-center ">Precio: ${item.price}</p>
-            <button className ="Button bg-tecnica border-2 rounded-xl w-40 h-8 flex items-center justify-center text-white m-auto px-8 py-4">
-            <Link to={`/item/${item.id}`}>Ver más</Link>
-            </button>
+        <article key={item.id} className="w-80 bg-white relative max-w-sm rounded shadow-md hover:shadow-2xl overflow-visible mx-4 my-8">
+            <img src={item.img} alt={item.name} className="w-full h-full object-cover rounded-t-md" />
+            <div className="p-4">
+                <h3 className="text-gray-800 text-xl font-bold mb-2">{item.name}</h3>
+                <p className="text-gray-500 text-base font-bold mb-4">Precio: ${item.price}</p>
+                <div className="flex items-center justify-center">
+                    <Boton onClick={() => handleAddToCart(1)} className="bg-tecnica text-white px-4 py-2 rounded">
+                        <Link to={`/item/${item.id}`}>Ver más</Link>
+                    </Boton>
+                </div>
+            </div>
         </article>
     );
 };
