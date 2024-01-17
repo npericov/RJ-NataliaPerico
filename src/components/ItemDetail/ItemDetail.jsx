@@ -1,21 +1,28 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import Boton from '../Renderprops/Boton';
 import QuantitySelector from '../ItemDetail/QuantitySelector.jsx';
+import { CartContext } from '../../context/CardContext.jsx';
 
 
 
 const ItemDetail = ({ item }) => {
     const [cantidad, setCantidad] = useState(1)
+    const { addToCart, isInCart } = useContext(CartContext)
+
 
     const handleAgregar = () => {
         const itemToCart = {
             ...item,
             cantidad,
-
         }
 
+
         console.log(itemToCart)
+        addToCart(itemToCart)
+
     }
+
+
 
     return (
 

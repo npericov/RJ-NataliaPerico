@@ -3,14 +3,14 @@ import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { CartProvider } from './context/CardContext';
+
 
 function App() {
 
   return (
-  
+    <CartProvider>
       <BrowserRouter>
-
-
         <Navbar/>
 
         <Routes>
@@ -23,8 +23,8 @@ function App() {
           <Route path="*" element={<Navigate to={"/not-found"}/> }/>
         </Routes>
 
-
       </BrowserRouter>
+    </CartProvider>
 
   );
 }
