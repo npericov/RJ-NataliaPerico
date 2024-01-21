@@ -43,8 +43,8 @@ const Navbar = () => {
                         to={link.href}
                         className={({ isActive }) =>
                         isActive
-                        ? "text-tecnica text-lg uppercase font-bold"
-                        : "text-gray-400 text-lg uppercase font-semibold" 
+                        ? "text-tecnica text-lg  font-bold"
+                        : "text-gray-500 text-lg font-semibold" 
                     }
                     >
                         {link.label}

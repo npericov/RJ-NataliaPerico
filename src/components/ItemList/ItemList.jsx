@@ -8,8 +8,10 @@ const ItemList = ({productos}) => {
         <h2 className=" flex  justify-center text-3xl font-bold text-gray-500 py-10">Productos</h2>
         <hr/>
 
-        <div className="flex flex-wrap justify-center gap-10 items-stretch">
-        { productos.map( (item) => <ItemCard item={item}/>)}
+        <div className="flex flex-wrap justify-center gap-10 items-center">
+        {productos.map((item) => (
+        <ItemCard key={item.id} item={item} />
+        ))}
         </div>
     </section>
     );
