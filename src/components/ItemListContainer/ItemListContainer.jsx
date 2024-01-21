@@ -29,12 +29,25 @@ const ItemListContainer = () => {
 
     return (
         <>
-            {  loading
-                ? <h2 className="text-center text-4-lx mt-8 ">Cargando...</h2>
-                : <ItemList productos={productos}/>  
-            }
-        </>   
+        {loading ? (
+        <div className="flex items-center justify-center flex-col gap-8 mt-20">
+            <div className="animate-spin rounded-full h-20 w-20 border-t-4 border-tecnica"></div>
+            <p className="text-center text-3xl mt-8 font-semibold text-tecnica">Cargando...</p>
+        </div>
+        ) : (
+        <ItemList productos={productos} />
+        )}
+    </>
     )
 };
 
 export default ItemListContainer;
+
+
+
+/*<>
+{  loading
+    ? <h2 className="text-center text-4-lx mt-8 ">Cargando...</h2>
+    : <ItemList productos={productos}/>  
+}
+</>  */ 

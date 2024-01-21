@@ -5,10 +5,13 @@ import { CartContext } from '../../context/CardContext.jsx';
 
 
 
+
 const ItemDetail = ({ item }) => {
     const [cantidad, setCantidad] = useState(1)
+
     const { addToCart, isInCart } = useContext(CartContext)
 
+console.log( isInCart(item.id) )
 
     const handleAgregar = () => {
         const itemToCart = {
@@ -16,13 +19,9 @@ const ItemDetail = ({ item }) => {
             cantidad,
         }
 
-
-        console.log(itemToCart)
         addToCart(itemToCart)
 
     }
-
-
 
     return (
 
@@ -36,12 +35,20 @@ const ItemDetail = ({ item }) => {
                         <h3 className="text-2xl font-bold mb-2">{item.name}</h3>
                         <p className="text-gray-700 mb-4">{item.description}</p>
                         <p className="text-gray-800 text-lg font-bold mb-2">${item.price}</p>
-                        <QuantitySelector cantidad={cantidad} stock={item.stock} setCantidad={setCantidad} />
+
+                
+                        <QuantitySelector 
+                            cantidad={cantidad}
+                            stock={item.stock} 
+                            setCantidad={setCantidad} 
+                        />
+
                         <div className="mt-4">
                             <Boton onClick={handleAgregar} className="bg-tecnica text-white px-4 py-2 rounded">
                                 Agregar al carrito
                             </Boton>
                         </div>
+
                     </div>
                 </div>
             </div>
