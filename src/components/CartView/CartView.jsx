@@ -1,12 +1,17 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../context/CardContext";
-import { UserContext } from "../../context/UserContext";
 import Boton from "../Renderprops/Boton";
 import trashIcon from "../../assets/trash.svg";
+import { UserContext } from "../../context/UserContext";
+import EmtpyCart from "./EmtpyCart";
+
 
 const CartView = () => {
     const { cart, totalCart, clearCart, removeItem } = useContext(CartContext);
     const { user } = useContext(UserContext);
+
+    if (!user.email) return <h2>No hay usuario registrado</h2>
+    if (cart.length === 0) return <EmtpyCart />
 
     return (
         <section className="container mt-10 max-w-screen-md mx-auto bg-white rounded-md shadow-lg hover:shadow-2xl overflow-visible p-4">

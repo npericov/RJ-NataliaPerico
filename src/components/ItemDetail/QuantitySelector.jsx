@@ -13,9 +13,9 @@ const QuantitySelector = ({cantidad, stock, setCantidad}) => {
 
   return (
     <div className="flex gap-4 items-center">
-      <Boton onClick={handleRestar}>-</Boton>
+      <Boton className={`${cantidad=== 1 ?  `bg-gray-400 ` :  `bg-tecnica `} `} onClick={handleRestar} disabled= {cantidad===1}>-</Boton>
       <span>{cantidad}</span>
-      <Boton onClick={handleSumar}>+</Boton>
+      <Boton className={`${cantidad=== stock ?  `bg-gray-400 ` :  `bg-tecnica `} `}  onClick={handleSumar} disabled={cantidad===stock}>+</Boton>
     </div>
   );
 };

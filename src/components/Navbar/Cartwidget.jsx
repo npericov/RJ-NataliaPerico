@@ -10,7 +10,7 @@ const CartWidget = () => {
     return (
         <Link to="/cart" className='flex items-center gap-1 cursor-pointer'>
             <img src={cartIcon} alt=" Cart Icon" className='w-8' />
-            <span className='text-gray-500 text-xl'>{ itemsInCart () }</span>
+            <span className= {`${itemsInCart() === 0 ? 'invisible opacity-0' : 'visible opacity-100'} transition-all text-white text-l bg-tecnica rounded-full w-5 h-5 flex items-center justify-center`}>{ itemsInCart () }</span>
         </Link>
     )
 }

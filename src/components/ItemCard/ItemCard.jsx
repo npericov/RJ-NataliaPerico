@@ -15,6 +15,9 @@ const ItemCard = ({ item }) => {
             <div className="p-4">
                 <h3 className="text-gray-800 text-xl font-bold mb-2">{item.name}</h3>
                 <p className="text-gray-500 text-base font-bold mb-4">Precio: ${item.price}</p>
+
+                { item.stock < 10 && <p className="font-bold text-red-500">Quedan sólo {item.stock} unidades!</p> }
+
                 <div className="flex items-center justify-center">
                     <Boton onClick={() => handleAddToCart(1)} className="bg-tecnica text-white px-4 py-2 rounded">
                         <Link to={`/item/${item.id}`}>Ver más</Link>

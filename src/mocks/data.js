@@ -19,7 +19,7 @@ export const MOCK_DATA = [
         price: 15000,
         img: "https://images.unsplash.com/photo-1594032194509-0056023973b2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'poleras',
-        stock: 10,
+        stock: 5,
         description: 'Polera de algodón, todas las tallas, estampadas',
     },
     {
@@ -38,7 +38,7 @@ export const MOCK_DATA = [
         price: 15000,
         img: "https://images.unsplash.com/photo-1602230099372-933318a2a164?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'poleras',
-        stock: 10,
+        stock: 3,
         description: 'Polera de algodón, todas las tallas, estampadas',
     },
 
@@ -58,7 +58,7 @@ export const MOCK_DATA = [
         price: 30000,
         img: "https://images.unsplash.com/photo-1578632140472-6d913e068456?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'polerones',
-        stock: 10,
+        stock: 8,
         description: 'Polerón de algodón, todas las tallas, estampadas',
     },
 
