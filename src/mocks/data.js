@@ -9,7 +9,7 @@ export const MOCK_DATA = [
         price: 15000,
         img: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ",
         category: 'poleras',
-        stock: 10,
+        stock: 9,
         description: 'Polera de algodón, todas las tallas, estampadas',
     },
 
@@ -28,7 +28,7 @@ export const MOCK_DATA = [
         price: 15000,
         img: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'poleras',
-        stock: 10,
+        stock: 1,
         description: 'Polera de algodón, todas las tallas, estampadas',
     },
 
@@ -48,7 +48,7 @@ export const MOCK_DATA = [
         price: 25000,
         img: "https://images.unsplash.com/photo-1565693413579-8ff3fdc1b03b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'polerones',
-        stock: 10,
+        stock: 7,
         description: 'Polerón de algodón, todas las tallas, estampadas',
     },
 
@@ -68,7 +68,7 @@ export const MOCK_DATA = [
         price: 30000,
         img: "https://images.unsplash.com/photo-1553728437-e15abbe95e6b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'polerones',
-        stock: 10,
+        stock: 9,
         description: 'Polerón de algodón, todas las tallas, estampadas',
     },
 
@@ -78,7 +78,7 @@ export const MOCK_DATA = [
         price: 30000,
         img: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'polerones',
-        stock: 10,
+        stock: 8,
         description: 'Polerón de algodón, todas las tallas, estampadas',
     },
 
@@ -88,7 +88,7 @@ export const MOCK_DATA = [
         price: 30000,
         img: "https://images.unsplash.com/photo-1597633244018-0201d0158aab?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'bolsos',
-        stock: 10,
+        stock: 6,
         description: 'Bellos bolsos de cuero',
     },
 
@@ -98,7 +98,7 @@ export const MOCK_DATA = [
         price: 30000,
         img: "https://images.unsplash.com/photo-1597633125184-9fd7e54f0ff7?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'bolsos',
-        stock: 10,
+        stock: 3,
         description: 'Bellos bolsos de cuero',
     },
 
@@ -108,7 +108,7 @@ export const MOCK_DATA = [
         price: 30000,
         img: "https://images.unsplash.com/photo-1614179689702-355944cd0918?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'bolsos',
-        stock: 10,
+        stock: 1,
         description: 'Bellos bolsos de cuero',
     },
 
@@ -118,7 +118,7 @@ export const MOCK_DATA = [
         price: 30000,
         img: "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?q=80&w=1957&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'bolsos',
-        stock: 10,
+        stock: 9,
         description: 'Bellos bolsos de cuero',
     },
 ]

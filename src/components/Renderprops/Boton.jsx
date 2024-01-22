@@ -6,7 +6,7 @@ const Boton = ({ children, className = "", onClick, disabled = false }) => {
         <button
             onClick={onClick}
             disabled={disabled}
-            className={`bg-tecnica rounded-xl flex items-center justify-center py-2 px-4 text-center text-white font-semibold my-4 ${className}`}
+            className={`bg-tecnica rounded-xl flex items-center justify-center py-2 px-4 text-center text-white font-semibold my-4 mb-1 ${className}`}
         >
         {children}
         </button>

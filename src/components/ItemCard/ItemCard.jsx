@@ -10,13 +10,13 @@ const ItemCard = ({ item }) => {
     };
 
     return (
-        <article key={item.id} className="w-80 bg-white relative max-w-sm rounded shadow-md hover:shadow-2xl overflow-visible mx-4 my-8">
+        <article key={item.id} className="w-80 mt-8 bg-white relative max-w-sm min-h-[300px] rounded shadow-md hover:shadow-2xl overflow-visible mx-4 my-8">
             <img src={item.img} alt={item.name} className="w-full h-full object-cover rounded-t-md" />
             <div className="p-4">
                 <h3 className="text-gray-800 text-xl font-bold mb-2">{item.name}</h3>
                 <p className="text-gray-500 text-base font-bold mb-4">Precio: ${item.price}</p>
 
-                { item.stock < 10 && <p className="font-bold text-red-500">Quedan sólo {item.stock} unidades!</p> }
+            { item.stock < 10 && <p className=" mt-1 font-semibold text-m text-red-500 text-center">Quedan sólo {item.stock} unidades!</p> }
 
                 <div className="flex items-center justify-center">
                     <Boton onClick={() => handleAddToCart(1)} className="bg-tecnica text-white px-4 py-2 rounded">
