@@ -10,7 +10,7 @@ export const MOCK_DATA = [
         img: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ",
         category: 'poleras',
         stock: 9,
-        description: 'Polera de algodón, todas las tallas, estampadas',
+        description: 'Tecnología Antipeeling.Calce relajado.Elaborado con bamboo: este absorbe y evapora con facilidad la humedad, es antibacterial, regulador térmico y repele rayos UV.El algodón orgánico te garantizará suavidad, más resistencia y que tu prenda sea hipoalergénica y apta para pieles sensibles.Composición: 70% bamboo y 30% algodón orgánico'
     },
 
     {
@@ -44,12 +44,12 @@ export const MOCK_DATA = [
 
     {
         id: 5,
-        name: 'Producto 5',
+        name: 'Poleron 1',
         price: 25000,
         img: "https://images.unsplash.com/photo-1565693413579-8ff3fdc1b03b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'polerones',
         stock: 7,
-        description: 'Polerón de algodón, todas las tallas, estampadas',
+        description: 'Composición:  68% algodón que te abrigará y hará confortable y 32% polyester que garantizará la larga vida de tu polerón.Parche frontal de la marca a altura del pecho.Polerón con gorro y cierre metálico con tirador.Gorro con cordones ajustables de algodón. Bolsillo interno con cierre y estampado.Tecnología #Antipeeling.Calce relajado',
     },
 
     {
@@ -84,7 +84,7 @@ export const MOCK_DATA = [
 
     {
         id: 9,
-        name: 'Producto 9',
+        name: 'Bolso 1',
         price: 30000,
         img: "https://images.unsplash.com/photo-1597633244018-0201d0158aab?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: 'bolsos',

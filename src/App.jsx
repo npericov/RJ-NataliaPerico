@@ -6,6 +6,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import { CartProvider } from './context/CardContext';
 import { UserProvider } from './context/UserContext';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Footer from './components/Footer/footer';
 
 
 
@@ -28,6 +29,8 @@ function App () {
             <Route path="/not-found" element={<h2>Not found</h2> }/>
             <Route path="*" element={<Navigate to={"/not-found"}/> }/>
           </Routes>
+
+          <Footer/>
 
         </BrowserRouter>
       </CartProvider>
