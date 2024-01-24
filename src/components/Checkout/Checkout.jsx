@@ -11,7 +11,9 @@ const Checkout = () => {
     const [values, setValues] = useState({
     nombre: "",
     direccion: "",
+    ciudad: "",
     email: "",
+    telefono: "",
     });
 
     const [orderId, setOrderId] = useState(null);
@@ -43,7 +45,7 @@ const Checkout = () => {
 
     if (orderId) {
         return (
-            <div className="container mt-10 mb-20 max-w-screen-md mx-auto bg-white rounded-md shadow-lg hover:shadow-2xl overflow-visible p-4">
+            <div className="container mt-10 mb-40 max-w-screen-md mx-auto  bg-white rounded-md shadow-lg hover:shadow-2xl overflow-visible p-4">
                 <h2 className="text-4xl font-semibold text-tecnica m-20 text-center">¡Gracias por tu compra!</h2>
                 <hr />
                 <p className=" font-semibold text-gray-500 p-5 text-center">Tu código de orden es: {orderId}</p>
@@ -81,11 +83,27 @@ const Checkout = () => {
             />
             <input
             className="border p-2"
+            type="text"
+            placeholder="Ciudad"
+            value={values.ciudad}
+            onChange={handleInputChange}
+            name="ciudad"
+            />
+            <input
+            className="border p-2"
             type="email"
             placeholder="Email"
             value={values.email}
             onChange={handleInputChange}
             name="email"
+            />
+            <input
+            className="border p-2"
+            type="tel"
+            placeholder="Teléfono"
+            value={values.telefono}
+            onChange={handleInputChange}
+            name="telefono"
             />
             <button type="submit" className="bg-tecnica text-white py-2">
             Enviar

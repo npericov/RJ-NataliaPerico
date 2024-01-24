@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Polera Negra",
+        "price": 15000,
+        "img": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "poleras",
+        "stock": 9,
+        "description": "Tecnología Antipeeling.Calce relajado.Elaborado con bamboo: este absorbe y evapora con facilidad la humedad, es antibacterial, regulador térmico y repele rayos UV.El algodón orgánico te garantizará suavidad, más resistencia y que tu prenda sea hipoalergénica y apta para pieles sensibles.Composición: 70% bamboo y 30% algodón orgánico"
+    },
+    {
+        "id": 2,
+        "name": "Polera Estampada",
+        "price": 15000,
+        "img": "https://images.unsplash.com/photo-1594032194509-0056023973b2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "poleras",
+        "stock": 5,
+        "description": "Tecnología Antipeeling.Calce relajado.Elaborado con bamboo: este absorbe y evapora con facilidad la humedad, es antibacterial, regulador térmico y repele rayos UV.El algodón orgánico te garantizará suavidad, más resistencia y que tu prenda sea hipoalergénica y apta para pieles sensibles.Composición: 70% bamboo y 30% algodón orgánico"
+    },
+    {
+        "id": 3,
+        "name": "Polera X",
+        "price": 15000,
+        "img": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "poleras",
+        "stock": 1,
+        "description": "Tecnología Antipeeling.Calce relajado.Elaborado con bamboo: este absorbe y evapora con facilidad la humedad, es antibacterial, regulador térmico y repele rayos UV.El algodón orgánico te garantizará suavidad, más resistencia y que tu prenda sea hipoalergénica y apta para pieles sensibles.Composición: 70% bamboo y 30% algodón orgánico"
+    },
+    {
+        "id": 4,
+        "name": "Polera Blanca",
+        "price": 15000,
+        "img": "https://images.unsplash.com/photo-1602230099372-933318a2a164?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "poleras",
+        "stock": 3,
+        "description": "Tecnología Antipeeling.Calce relajado.Elaborado con bamboo: este absorbe y evapora con facilidad la humedad, es antibacterial, regulador térmico y repele rayos UV.El algodón orgánico te garantizará suavidad, más resistencia y que tu prenda sea hipoalergénica y apta para pieles sensibles.Composición: 70% bamboo y 30% algodón orgánicos"
+    },
+    {
+        "id": 5,
+        "name": "Polerón 1",
+        "price": 25000,
+        "img": "https://images.unsplash.com/photo-1565693413579-8ff3fdc1b03b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "polerones",
+        "stock": 7,
+        "description": "Composición:  68% algodón que te abrigará y hará confortable y 32% polyester que garantizará la larga vida de tu polerón.Parche frontal de la marca a altura del pecho.Polerón con gorro y cierre metálico con tirador.Gorro con cordones ajustables de algodón. Bolsillo interno con cierre y estampado.Tecnología #Antipeeling.Calce relajado"
+    },
+    {
+        "id": 6,
+        "name": "Polerón 2",
+        "price": 30000,
+        "img": "https://images.unsplash.com/photo-1578632140472-6d913e068456?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "polerones",
+        "stock": 8,
+        "description": "Composición:  68% algodón que te abrigará y hará confortable y 32% polyester que garantizará la larga vida de tu polerón.Parche frontal de la marca a altura del pecho.Polerón con gorro y cierre metálico con tirador.Gorro con cordones ajustables de algodón. Bolsillo interno con cierre y estampado.Tecnología #Antipeeling.Calce relajado"
+    },
+    {
+        "id": 7,
+        "name": "Polerón 3",
+        "price": 30000,
+        "img": "https://images.unsplash.com/photo-1553728437-e15abbe95e6b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "polerones",
+        "stock": 9,
+        "description": "Composición:  68% algodón que te abrigará y hará confortable y 32% polyester que garantizará la larga vida de tu polerón.Parche frontal de la marca a altura del pecho.Polerón con gorro y cierre metálico con tirador.Gorro con cordones ajustables de algodón. Bolsillo interno con cierre y estampado.Tecnología #Antipeeling.Calce relajado"
+    },
+    {
+        "id": 8,
+        "name": "Polerón 4",
+        "price": 30000,
+        "img": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "polerones",
+        "stock": 8,
+        "description": "Composición:  68% algodón que te abrigará y hará confortable y 32% polyester que garantizará la larga vida de tu polerón.Parche frontal de la marca a altura del pecho.Polerón con gorro y cierre metálico con tirador.Gorro con cordones ajustables de algodón. Bolsillo interno con cierre y estampado.Tecnología #Antipeeling.Calce relajado"
+    },
+    {
+        "id": 9,
+        "name": "Cartera de mano",
+        "price": 30000,
+        "img": "https://plus.unsplash.com/premium_photo-1673758910906-3917c348ba73?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "bolsos",
+        "stock": 6,
+        "description": "Cartera de hombro tamaño L con 3 divisiones. Compartimiento central con cierre. Compartimiento frontal y posterior con botón magnético. Bolsillo posterior con cierre. Asas largas para el hombro."
+    },
+    {
+        "id": 10,
+        "name": "Cartera Rosa",
+        "price": 30000,
+        "img": "https://images.unsplash.com/photo-1585488763177-bde7d15fd3cf?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "bolsos",
+        "stock": 3,
+        "description": "Cartera de hombro tamaño L con 3 divisiones. Compartimiento central con cierre. Compartimiento frontal y posterior con botón magnético. Bolsillo posterior con cierre. Asas largas para el hombro"
+    },
+    {
+        "id": 11,
+        "name": "Bolso Marrón",
+        "price": 30000,
+        "img": "https://images.unsplash.com/photo-1598099947145-e85739e7ca28?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "bolsos",
+        "stock": 1,
+        "description": "Cartera de hombro tamaño L con 3 divisiones. Compartimiento central con cierre. Compartimiento frontal y posterior con botón magnético. Bolsillo posterior con cierre. Asas largas para el hombro"
+    },
+    {
+        "id": 12,
+        "name": "Bolso Urbano",
+        "price": 30000,
+        "img": "https://images.unsplash.com/photo-1559127452-9328c6b697bd?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "bolsos",
+        "stock": 9,
+        "description": "Cartera de hombro tamaño L con 3 divisiones. Compartimiento central con cierre. Compartimiento frontal y posterior con botón magnético. Bolsillo posterior con cierre. Asas largas para el hombro"
+    },
+    {
+        "id": 13,
+        "name": "Polera Naranjita",
+        "price": 30000,
+        "img": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "poleras",
+        "stock": 9,
+        "description": "Tecnología Antipeeling.Calce relajado.Elaborado con bamboo: este absorbe y evapora con facilidad la humedad, es antibacterial, regulador térmico y repele rayos UV.El algodón orgánico te garantizará suavidad, más resistencia y que tu prenda sea hipoalergénica y apta para pieles sensibles.Composición: 70% bamboo y 30% algodón orgánicos"
+    }, 
+    {
+        "id": 14,
+        "name": "Polera Hombre",
+        "price": 30000,
+        "img": "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "poleras",
+        "stock": 9,
+        "description": "Tecnología Antipeeling.Calce relajado.Elaborado con bamboo: este absorbe y evapora con facilidad la humedad, es antibacterial, regulador térmico y repele rayos UV.El algodón orgánico te garantizará suavidad, más resistencia y que tu prenda sea hipoalergénica y apta para pieles sensibles.Composición: 70% bamboo y 30% algodón orgánicos"
+    },
+    {
+        "id": 15,
+        "name": "Polera Feliz",
+        "price": 25500,
+        "img": "https://images.unsplash.com/photo-1554568218-0f1715e72254?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "poleras",
+        "stock":5,
+        "description": "Tecnología Antipeeling.Calce relajado.Elaborado con bamboo: este absorbe y evapora con facilidad la humedad, es antibacterial, regulador térmico y repele rayos UV.El algodón orgánico te garantizará suavidad, más resistencia y que tu prenda sea hipoalergénica y apta para pieles sensibles.Composición: 70% bamboo y 30% algodón orgánicos"
+    },
+    {
+        "id": 16,
+        "name": "Polera Rojo contra Azul",
+        "price": 25500,
+        "img": "https://images.unsplash.com/photo-1520911858363-ce639c052a2e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "poleras",
+        "stock":7,
+        "description": "Tecnología Antipeeling.Calce relajado.Elaborado con bamboo: este absorbe y evapora con facilidad la humedad, es antibacterial, regulador térmico y repele rayos UV.El algodón orgánico te garantizará suavidad, más resistencia y que tu prenda sea hipoalergénica y apta para pieles sensibles.Composición: 70% bamboo y 30% algodón orgánicos"
+    },
+    {
+        "id": 17,
+        "name": "Polerón 5",
+        "price": 55000,
+        "img": "https://plus.unsplash.com/premium_photo-1673827311290-d435f481152e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "polerones",
+        "stock": 6,
+        "description": "Composición:  68% algodón que te abrigará y hará confortable y 32% polyester que garantizará la larga vida de tu polerón.Parche frontal de la marca a altura del pecho.Polerón con gorro y cierre metálico con tirador.Gorro con cordones ajustables de algodón. Bolsillo interno con cierre y estampado.Tecnología #Antipeeling.Calce relajado"
+    },
+    {
+        "id": 18,
+        "name": "Polerón 6",
+        "price": 45000,
+        "img": "https://images.unsplash.com/photo-1521567097888-2c5fc40a8660?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "polerones",
+        "stock": 6,
+        "description": "Composición:  68% algodón que te abrigará y hará confortable y 32% polyester que garantizará la larga vida de tu polerón.Parche frontal de la marca a altura del pecho.Polerón con gorro y cierre metálico con tirador.Gorro con cordones ajustables de algodón. Bolsillo interno con cierre y estampado.Tecnología #Antipeeling.Calce relajado"
+    },
+    {
+        "id": 19,
+        "name": "Polerón 7",
+        "price": 35000,
+        "img": "https://images.unsplash.com/photo-1606081430924-b6480765d470?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "polerones",
+        "stock": 8,
+        "description": "Composición:  68% algodón que te abrigará y hará confortable y 32% polyester que garantizará la larga vida de tu polerón.Parche frontal de la marca a altura del pecho.Polerón con gorro y cierre metálico con tirador.Gorro con cordones ajustables de algodón. Bolsillo interno con cierre y estampado.Tecnología #Antipeeling.Calce relajado"
+    },
+    {
+        "id": 19,
+        "name": "Polerón 8",
+        "price": 35000,
+        "img": "https://images.unsplash.com/photo-1552663698-6233bc6ed58b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "polerones",
+        "stock": 8,
+        "description": "Composición:  68% algodón que te abrigará y hará confortable y 32% polyester que garantizará la larga vida de tu polerón.Parche frontal de la marca a altura del pecho.Polerón con gorro y cierre metálico con tirador.Gorro con cordones ajustables de algodón. Bolsillo interno con cierre y estampado.Tecnología #Antipeeling.Calce relajado"
+    }
+]

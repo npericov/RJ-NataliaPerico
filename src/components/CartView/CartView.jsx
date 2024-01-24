@@ -17,7 +17,7 @@ const CartView = () => {
     if (cart.length === 0) return <EmtpyCart />
 
     return (
-        <section className="container mt-10 max-w-screen-md mx-auto bg-white rounded-md shadow-lg hover:shadow-2xl overflow-visible p-4">
+        <section className="container mt-10 max-w-screen-md mx-auto mb-20 bg-white rounded-md shadow-lg hover:shadow-2xl overflow-visible p-4">
             <p className="text-gray-500 mb-4">Bienvenido: {user.email}</p>
             <h2 className="text-2xl font-semibold text-tecnica mb-4">Tu carrito</h2>
             <hr />
