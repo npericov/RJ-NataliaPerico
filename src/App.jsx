@@ -3,10 +3,11 @@ import CartView from './components/CartView/CartView';
 import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-import { CartProvider } from './context/CardContext';
+import { CartProvider } from './context/CartContext';
 import { UserProvider } from './context/UserContext';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Footer from './components/Footer/footer';
+import Checkout from './components/Checkout/Checkout';
 
 
 
@@ -23,6 +24,7 @@ function App () {
             <Route path="/productos/:categoryId" element={ <ItemListContainer /> }/>
             <Route path="/item/:itemId" element={ <ItemDetailContainer /> } />
             <Route path="/cart" element={ <CartView /> } />
+            <Route path="/checkout" element={<Checkout />} />
 
 
 

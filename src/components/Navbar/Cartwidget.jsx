@@ -3,7 +3,7 @@
 import { Link } from 'react-router-dom'
 import cartIcon from '../../assets/cart.svg'
 import { useContext } from 'react'
-import { CartContext } from '../../context/CardContext'
+import { CartContext } from '../../context/CartContext'
 
 const CartWidget = () => {
     const { itemsInCart } = useContext(CartContext)

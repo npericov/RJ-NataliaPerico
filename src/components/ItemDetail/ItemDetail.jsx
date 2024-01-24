@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
 import Boton from '../Renderprops/Boton';
 import QuantitySelector from '../ItemDetail/QuantitySelector.jsx';
-import { CartContext } from '../../context/CardContext.jsx';
+import { CartContext } from '../../context/CartContext.jsx';
 import { Link, useNavigate } from "react-router-dom";
 import returnIcon from '../../assets/return.svg';
 
@@ -27,7 +27,7 @@ const ItemDetail = ({ item }) => {
     };
 
     return (
-        <div className="container mx-auto mt-10">
+        <div className="container mx-auto mt-10 mb-20">
             <div className="max-w-screen-md mx-auto bg-white rounded-md shadow-lg hover:shadow-2xl overflow-visible">
                 <div className="p-2 m-4 mt-2 mb-2">
                     <Link onClick={handleVolver} >
@@ -48,9 +48,9 @@ const ItemDetail = ({ item }) => {
 
                         <div className="flex flex-col items-start mt-4">
                         <Boton>
-                            <Link to="/cart">Terminar mi compra</Link>
+                            <Link to="/cart">Ver mi carrito</Link>
                         </Boton>
-                        <Boton onClick={handleVolver} className='mt-2'>Continuar comprando</Boton>
+                        <Boton onClick={handleVolver} className='mt-4'>Continuar comprando</Boton>
                     </div>
                         ) : (
                             <>

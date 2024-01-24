@@ -1,9 +1,12 @@
 import React, { useContext } from "react";
-import { CartContext } from "../../context/CardContext";
+import { CartContext } from "../../context/CartContext";
 import Boton from "../Renderprops/Boton";
 import trashIcon from "../../assets/trash.svg";
 import { UserContext } from "../../context/UserContext";
 import EmtpyCart from "./EmtpyCart";
+import { Link } from 'react-router-dom';
+
+
 
 
 const CartView = () => {
@@ -16,7 +19,7 @@ const CartView = () => {
     return (
         <section className="container mt-10 max-w-screen-md mx-auto bg-white rounded-md shadow-lg hover:shadow-2xl overflow-visible p-4">
             <p className="text-gray-500 mb-4">Bienvenido: {user.email}</p>
-            <h2 className="text-2xl font-semibold text-tecnica mb-4">Resumen de tu compra</h2>
+            <h2 className="text-2xl font-semibold text-tecnica mb-4">Tu carrito</h2>
             <hr />
 
             <ul className="p-4">
@@ -41,9 +44,17 @@ const CartView = () => {
             </ul>
 
             <h4 className="text-2xl font-bold text-gray-500 mb-4">Total: $ {totalCart()}</h4>
-            <Boton onClick={clearCart} className="bg-tecnica text-white px-4 py-2 rounded">
-            Vaciar carrito
-            </Boton>
+            <div className="flex justify-between">
+                
+                <Boton className="bg-tecnica text-white px-4 py-2 rounded">
+                <Link to="/checkout">Finalizar mi compra</Link>
+                </Boton>
+
+                <Boton onClick={clearCart} className="bg-gray-500 text-white px-4 py-2 rounded">
+                Vaciar carrito
+                </Boton>
+            </div>
+
         </section>
     );
 };
