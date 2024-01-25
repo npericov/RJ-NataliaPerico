@@ -11,33 +11,32 @@ import Checkout from './components/Checkout/Checkout';
 
 
 
-function App () {
-
+function App() {
   return (
     <UserProvider>
       <CartProvider>
         <BrowserRouter>
-          <Navbar/>
+          <div className="flex flex-col min-h-screen">
+            <Navbar />
 
-          <Routes>
-            <Route path="/" element={<ItemListContainer/> }/>
-            <Route path="/productos/:categoryId" element={ <ItemListContainer /> }/>
-            <Route path="/item/:itemId" element={ <ItemDetailContainer /> } />
-            <Route path="/cart" element={ <CartView /> } />
-            <Route path="/checkout" element={<Checkout />} />
+            <Routes>
+              <Route path="/" element={<ItemListContainer />} />
+              <Route path="/productos/:categoryId" element={<ItemListContainer />} />
+              <Route path="/item/:itemId" element={<ItemDetailContainer />} />
+              <Route path="/cart" element={<CartView />} />
+              <Route path="/checkout" element={<Checkout />} />
 
+              <Route path="/not-found" element={<h2>Not found</h2>} />
+              <Route path="*" element={<Navigate to="/not-found" />} />
+            </Routes>
 
+          </div>
 
-            <Route path="/not-found" element={<h2>Not found</h2> }/>
-            <Route path="*" element={<Navigate to={"/not-found"}/> }/>
-          </Routes>
-
-          <Footer/>
+          <Footer />
 
         </BrowserRouter>
       </CartProvider>
     </UserProvider>
-
   );
 }
 

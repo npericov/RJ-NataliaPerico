@@ -5,7 +5,7 @@ const ItemList = ({productos}) => {
     return (
         <section className="container m-auto ">
         { /*catalogo de productos */}
-        <h2 className=" flex  justify-center text-3xl font-bold text-gray-500 py-10">Productos</h2>
+        <h2 className=" flex justify-center text-3xl font-bold text-gray-500 py-10">Productos</h2>
         <hr/>
 
         <div className="flex flex-wrap justify-center gap-10 items-center">

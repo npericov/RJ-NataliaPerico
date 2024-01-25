@@ -27,7 +27,7 @@ const ItemDetail = ({ item }) => {
     };
 
     return (
-        <div className="container mx-auto mt-10 mb-20">
+        <div className="container mx-auto mt-10 mb-10">
             <div className="max-w-screen-md mx-auto bg-white rounded-md shadow-lg hover:shadow-2xl overflow-visible">
                 <div className="p-2 m-4 mt-2 mb-2">
                     <Link onClick={handleVolver} >

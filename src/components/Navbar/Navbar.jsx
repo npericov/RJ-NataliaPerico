@@ -6,19 +6,19 @@ import { Link, NavLink } from 'react-router-dom'
 
 const links = [
     {
-        label: "Inicio",
+        label: "INICIO",
         href: "/",
     },
     {
-        label: "Poleras",
+        label: "POLERAS",
         href: "/productos/poleras",
     },
     {
-        label: "Polerones",
+        label: "POLERONES",
         href: "/productos/polerones",
     },
     {
-        label: "Bolsos",
+        label: "BOLSOS",
         href: "/productos/bolsos",
     }
 
@@ -31,7 +31,10 @@ const Navbar = () => {
     return (
         <header className="bg-gray-200">
             <div className="container m-auto py-5 px-10 flex justify-between items-center">
+            <Link to={"/"}>
                 <img src={logo} alt="logo" className='w-28' />
+            </Link>
+                
 
                 <nav className="flex gap-7">
                     {links.map((link) => (
